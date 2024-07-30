@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B92628592C53884F006B313A /* SonucView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92628582C53884F006B313A /* SonucView.swift */; };
+		B926285C2C539EA7006B313A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926285B2C539EA7006B313A /* Constants.swift */; };
+		B926285F2C539FCB006B313A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926285E2C539FCB006B313A /* Result.swift */; };
+		C522B4722C52A2C5001E129C /* KPSS_Puan_HesaplamaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B4712C52A2C5001E129C /* KPSS_Puan_HesaplamaApp.swift */; };
+		C522B4762C52A2C7001E129C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C522B4752C52A2C7001E129C /* Assets.xcassets */; };
+		C522B4792C52A2C7001E129C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C522B4782C52A2C7001E129C /* Preview Assets.xcassets */; };
+		C522B4802C52A300001E129C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B47F2C52A300001E129C /* RootView.swift */; };
+		C522B4842C52A3B5001E129C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B4832C52A3B5001E129C /* MainView.swift */; };
+		C522B4862C52A3BB001E129C /* ResultVİew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B4852C52A3BB001E129C /* ResultVİew.swift */; };
+		C522B4882C52B0AB001E129C /* OrtaogretimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B4872C52B0AA001E129C /* OrtaogretimView.swift */; };
+		C522B48A2C52B0C1001E129C /* OnlisansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B4892C52B0C1001E129C /* OnlisansView.swift */; };
+		C522B48C2C52B0DE001E129C /* LisansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B48B2C52B0DE001E129C /* LisansView.swift */; };
+		C522B48E2C52B103001E129C /* EgitimBilimleriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B48D2C52B103001E129C /* EgitimBilimleriView.swift */; };
+		C522B4902C52B11A001E129C /* OABTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B48F2C52B11A001E129C /* OABTView.swift */; };
+		C522B4932C52C101001E129C /* HesaplaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B4922C52C100001E129C /* HesaplaButton.swift */; };
+		C548C0C52C56CAC200BF30F6 /* AddCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C548C0C42C56CAC200BF30F6 /* AddCoordinator.swift */; };
+		C5B1A1AE2C540031006F9214 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = C5B1A1AD2C540031006F9214 /* GoogleUserMessagingPlatform */; };
+		C5B1A1B22C540DD6006F9214 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = C5B1A1B12C540DD6006F9214 /* GoogleMobileAds */; };
+		C5B1A1B52C541298006F9214 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1A1B42C541298006F9214 /* BannerViewController.swift */; };
+		C5B1A1B72C5412F7006F9214 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1A1B62C5412F7006F9214 /* BannerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B92628582C53884F006B313A /* SonucView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucView.swift; sourceTree = "<group>"; };
+		B926285B2C539EA7006B313A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B926285E2C539FCB006B313A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		C522B46E2C52A2C5001E129C /* KPSS Puan Hesaplama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KPSS Puan Hesaplama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C522B4712C52A2C5001E129C /* KPSS_Puan_HesaplamaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSS_Puan_HesaplamaApp.swift; sourceTree = "<group>"; };
+		C522B4752C52A2C7001E129C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C522B4782C52A2C7001E129C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C522B47F2C52A300001E129C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C522B4832C52A3B5001E129C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C522B4852C52A3BB001E129C /* ResultVİew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultVİew.swift"; sourceTree = "<group>"; };
+		C522B4872C52B0AA001E129C /* OrtaogretimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrtaogretimView.swift; sourceTree = "<group>"; };
+		C522B4892C52B0C1001E129C /* OnlisansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlisansView.swift; sourceTree = "<group>"; };
+		C522B48B2C52B0DE001E129C /* LisansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LisansView.swift; sourceTree = "<group>"; };
+		C522B48D2C52B103001E129C /* EgitimBilimleriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgitimBilimleriView.swift; sourceTree = "<group>"; };
+		C522B48F2C52B11A001E129C /* OABTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OABTView.swift; sourceTree = "<group>"; };
+		C522B4922C52C100001E129C /* HesaplaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesaplaButton.swift; sourceTree = "<group>"; };
+		C548C0C42C56CAC200BF30F6 /* AddCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoordinator.swift; sourceTree = "<group>"; };
+		C5B1A1AF2C540558006F9214 /* KPSS-Puan-Hesaplama-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KPSS-Puan-Hesaplama-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C5B1A1B42C541298006F9214 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		C5B1A1B62C5412F7006F9214 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C522B46B2C52A2C5001E129C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B1A1B22C540DD6006F9214 /* GoogleMobileAds in Frameworks */,
+				C5B1A1AE2C540031006F9214 /* GoogleUserMessagingPlatform in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B926285A2C539E79006B313A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C5B1A1B32C5410F1006F9214 /* AdMob */,
+				B926285B2C539EA7006B313A /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B926285D2C539FC4006B313A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B926285E2C539FCB006B313A /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C522B4652C52A2C5001E129C = {
+			isa = PBXGroup;
+			children = (
+				C522B4702C52A2C5001E129C /* KPSS Puan Hesaplama */,
+				C522B46F2C52A2C5001E129C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C522B46F2C52A2C5001E129C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C522B46E2C52A2C5001E129C /* KPSS Puan Hesaplama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C522B4702C52A2C5001E129C /* KPSS Puan Hesaplama */ = {
+			isa = PBXGroup;
+			children = (
+				C5B1A1AF2C540558006F9214 /* KPSS-Puan-Hesaplama-Info.plist */,
+				B926285D2C539FC4006B313A /* Model */,
+				C522B4822C52A364001E129C /* Resources */,
+				C522B4812C52A350001E129C /* Views */,
+				C522B4772C52A2C7001E129C /* Preview Content */,
+			);
+			path = "KPSS Puan Hesaplama";
+			sourceTree = "<group>";
+		};
+		C522B4772C52A2C7001E129C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C522B4782C52A2C7001E129C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C522B4812C52A350001E129C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B926285A2C539E79006B313A /* Helpers */,
+				C522B4912C52C066001E129C /* SharedView */,
+				C522B47F2C52A300001E129C /* RootView.swift */,
+				C522B4832C52A3B5001E129C /* MainView.swift */,
+				C522B4852C52A3BB001E129C /* ResultVİew.swift */,
+				C522B4872C52B0AA001E129C /* OrtaogretimView.swift */,
+				C522B4892C52B0C1001E129C /* OnlisansView.swift */,
+				C522B48B2C52B0DE001E129C /* LisansView.swift */,
+				C522B48D2C52B103001E129C /* EgitimBilimleriView.swift */,
+				C522B48F2C52B11A001E129C /* OABTView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C522B4822C52A364001E129C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C522B4712C52A2C5001E129C /* KPSS_Puan_HesaplamaApp.swift */,
+				C522B4752C52A2C7001E129C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C522B4912C52C066001E129C /* SharedView */ = {
+			isa = PBXGroup;
+			children = (
+				C522B4922C52C100001E129C /* HesaplaButton.swift */,
+				B92628582C53884F006B313A /* SonucView.swift */,
+			);
+			name = SharedView;
+			path = "SharedVİew";
+			sourceTree = "<group>";
+		};
+		C5B1A1B32C5410F1006F9214 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				C5B1A1B42C541298006F9214 /* BannerViewController.swift */,
+				C5B1A1B62C5412F7006F9214 /* BannerView.swift */,
+				C548C0C42C56CAC200BF30F6 /* AddCoordinator.swift */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C522B46D2C52A2C5001E129C /* KPSS Puan Hesaplama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C522B47C2C52A2C7001E129C /* Build configuration list for PBXNativeTarget "KPSS Puan Hesaplama" */;
+			buildPhases = (
+				C522B46A2C52A2C5001E129C /* Sources */,
+				C522B46B2C52A2C5001E129C /* Frameworks */,
+				C522B46C2C52A2C5001E129C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KPSS Puan Hesaplama";
+			packageProductDependencies = (
+				C5B1A1AD2C540031006F9214 /* GoogleUserMessagingPlatform */,
+				C5B1A1B12C540DD6006F9214 /* GoogleMobileAds */,
+			);
+			productName = "KPSS Puan Hesaplama";
+			productReference = C522B46E2C52A2C5001E129C /* KPSS Puan Hesaplama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C522B4662C52A2C5001E129C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C522B46D2C52A2C5001E129C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C522B4692C52A2C5001E129C /* Build configuration list for PBXProject "KPSS Puan Hesaplama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				tr,
+			);
+			mainGroup = C522B4652C52A2C5001E129C;
+			packageReferences = (
+				C5B1A1AC2C540031006F9214 /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */,
+				C5B1A1B02C540DD6006F9214 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = C522B46F2C52A2C5001E129C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C522B46D2C52A2C5001E129C /* KPSS Puan Hesaplama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C522B46C2C52A2C5001E129C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C522B4792C52A2C7001E129C /* Preview Assets.xcassets in Resources */,
+				C522B4762C52A2C7001E129C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C522B46A2C52A2C5001E129C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C522B4932C52C101001E129C /* HesaplaButton.swift in Sources */,
+				B926285F2C539FCB006B313A /* Result.swift in Sources */,
+				C522B48C2C52B0DE001E129C /* LisansView.swift in Sources */,
+				C522B4802C52A300001E129C /* RootView.swift in Sources */,
+				C522B4862C52A3BB001E129C /* ResultVİew.swift in Sources */,
+				C5B1A1B72C5412F7006F9214 /* BannerView.swift in Sources */,
+				C522B4842C52A3B5001E129C /* MainView.swift in Sources */,
+				C5B1A1B52C541298006F9214 /* BannerViewController.swift in Sources */,
+				C522B48A2C52B0C1001E129C /* OnlisansView.swift in Sources */,
+				C522B4722C52A2C5001E129C /* KPSS_Puan_HesaplamaApp.swift in Sources */,
+				C522B4882C52B0AB001E129C /* OrtaogretimView.swift in Sources */,
+				C522B48E2C52B103001E129C /* EgitimBilimleriView.swift in Sources */,
+				C548C0C52C56CAC200BF30F6 /* AddCoordinator.swift in Sources */,
+				C522B4902C52B11A001E129C /* OABTView.swift in Sources */,
+				B92628592C53884F006B313A /* SonucView.swift in Sources */,
+				B926285C2C539EA7006B313A /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C522B47A2C52A2C7001E129C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C522B47B2C52A2C7001E129C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C522B47D2C52A2C7001E129C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KPSS Puan Hesaplama/Preview Content\"";
+				DEVELOPMENT_TEAM = 477K4S3LV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KPSS-Puan-Hesaplama-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Puan Hesapla";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Reklamları sizin için otomatik kişiselleştirmemizi ister misiniz? ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mesutasdev.KPSS-Puan-Hesaplama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C522B47E2C52A2C7001E129C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KPSS Puan Hesaplama/Preview Content\"";
+				DEVELOPMENT_TEAM = 477K4S3LV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KPSS-Puan-Hesaplama-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Puan Hesapla";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Reklamları sizin için otomatik kişiselleştirmemizi ister misiniz? ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mesutasdev.KPSS-Puan-Hesaplama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C522B4692C52A2C5001E129C /* Build configuration list for PBXProject "KPSS Puan Hesaplama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C522B47A2C52A2C7001E129C /* Debug */,
+				C522B47B2C52A2C7001E129C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C522B47C2C52A2C7001E129C /* Build configuration list for PBXNativeTarget "KPSS Puan Hesaplama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C522B47D2C52A2C7001E129C /* Debug */,
+				C522B47E2C52A2C7001E129C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5B1A1AC2C540031006F9214 /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+		C5B1A1B02C540DD6006F9214 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5B1A1AD2C540031006F9214 /* GoogleUserMessagingPlatform */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5B1A1AC2C540031006F9214 /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */;
+			productName = GoogleUserMessagingPlatform;
+		};
+		C5B1A1B12C540DD6006F9214 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5B1A1B02C540DD6006F9214 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C522B4662C52A2C5001E129C /* Project object */;
+}
